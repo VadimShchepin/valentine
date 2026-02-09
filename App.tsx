@@ -230,7 +230,7 @@ export default function App() {
             left: noButtonPositions[noPosIndex].left,
           }}
         >
-          No 💔
+          Нет 💔
         </button>
       )}
 
