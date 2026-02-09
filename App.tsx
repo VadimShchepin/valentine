@@ -111,7 +111,7 @@ export default function App() {
 
 
   const getRejectionPhrase = () => {
-    if (noCount === 0) return "Please don't say no 🥺😢💔";
+    if (noCount === 0) return "Пожалуйста, не говори нет 🥺😢💔";
     return REJECTION_PHRASES[Math.min(noCount, REJECTION_PHRASES.length - 1)];
   };
 
@@ -149,10 +149,10 @@ export default function App() {
             className="rounded-lg shadow-lg mb-8 max-w-[300px] md:max-w-md w-full"
           />
           <h1 className="text-4xl md:text-6xl font-extrabold text-pink-600 animate-pulse mb-4">
-            YAY! I knew it! ❤️
+            УРА! Я знал! ❤️
           </h1>
           <p className="text-xl md:text-2xl text-gray-700 font-medium">
-            Be ready for the best Valentine's Day ever!
+            Готовься к лучшему Дню Валентина!
           </p>
         </div>
       </div>
@@ -171,7 +171,7 @@ export default function App() {
         
         {/* Heading */}
         <h1 className="text-4xl md:text-6xl font-bold text-center text-pink-600 drop-shadow-sm font-serif">
-          Will you be my Valentine?
+          Будешь моей Валентинкой?
         </h1>
 
         {/* GIF Container */}
@@ -203,7 +203,7 @@ export default function App() {
             }}
             onClick={() => setYesPressed(true)}
           >
-            Yes ❤️
+            Да ❤️
           </button>
 
           {/* No Button — inline at start, then jumps around */}
@@ -212,7 +212,7 @@ export default function App() {
               onClick={handleNoClick}
               className="bg-gray-400 hover:bg-gray-500 text-white font-bold py-3 px-6 rounded-full shadow-lg transition-all duration-300 z-10 whitespace-nowrap"
             >
-              No 💔
+              Нет 💔
             </button>
           )}
         </div>
@@ -235,7 +235,7 @@ export default function App() {
       )}
 
       <div className="absolute bottom-4 text-pink-300 text-sm z-10">
-        Made with ❤️ for you
+        Сделано с ❤️ для тебя
       </div>
     </div>
   );
